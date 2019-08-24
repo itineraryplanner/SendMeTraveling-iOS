@@ -12,6 +12,7 @@
 		6A5EFE032308D901005282B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A5EFE012308D901005282B0 /* Main.storyboard */; };
 		6A5EFE052308D908005282B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A5EFE042308D908005282B0 /* Assets.xcassets */; };
 		6A5EFE082308D908005282B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A5EFE062308D908005282B0 /* LaunchScreen.storyboard */; };
+		6A5EFE47230F5CCA005282B0 /* AddLegOfTravel.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A5EFE46230F5CCA005282B0 /* AddLegOfTravel.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		6A5EFE042308D908005282B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A5EFE072308D908005282B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A5EFE092308D908005282B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A5EFE46230F5CCA005282B0 /* AddLegOfTravel.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddLegOfTravel.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				6A5EFDFD2308D901005282B0 /* AppDelegate.swift */,
 				6A5EFDFF2308D901005282B0 /* ViewController.swift */,
 				6A5EFE012308D901005282B0 /* Main.storyboard */,
+				6A5EFE46230F5CCA005282B0 /* AddLegOfTravel.storyboard */,
 				6A5EFE042308D908005282B0 /* Assets.xcassets */,
 				6A5EFE062308D908005282B0 /* LaunchScreen.storyboard */,
 				6A5EFE092308D908005282B0 /* Info.plist */,
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A5EFE47230F5CCA005282B0 /* AddLegOfTravel.storyboard in Resources */,
 				6A5EFE082308D908005282B0 /* LaunchScreen.storyboard in Resources */,
 				6A5EFE052308D908005282B0 /* Assets.xcassets in Resources */,
 				6A5EFE032308D901005282B0 /* Main.storyboard in Resources */,
