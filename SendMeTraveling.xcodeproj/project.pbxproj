@@ -17,6 +17,7 @@
 		6A5EFE4E23172B6A005282B0 /* ItineraryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5EFE4D23172B6A005282B0 /* ItineraryTableViewController.swift */; };
 		6A5EFE5123172E55005282B0 /* LegOfTravelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5EFE5023172E55005282B0 /* LegOfTravelTableViewController.swift */; };
 		6A5EFE5323172F9B005282B0 /* AddLegOfTravelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5EFE5223172F9B005282B0 /* AddLegOfTravelViewController.swift */; };
+		6A5EFE5A231DE019005282B0 /* DateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5EFE59231DE019005282B0 /* DateTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		6A5EFE4D23172B6A005282B0 /* ItineraryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryTableViewController.swift; sourceTree = "<group>"; };
 		6A5EFE5023172E55005282B0 /* LegOfTravelTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegOfTravelTableViewController.swift; sourceTree = "<group>"; };
 		6A5EFE5223172F9B005282B0 /* AddLegOfTravelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLegOfTravelViewController.swift; sourceTree = "<group>"; };
+		6A5EFE59231DE019005282B0 /* DateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 			children = (
 				6A5EFDFD2308D901005282B0 /* AppDelegate.swift */,
 				6A5EFE4823172B29005282B0 /* Models */,
+				6A5EFE58231DE001005282B0 /* Views */,
 				6A5EFE4F23172B8C005282B0 /* View Controllers */,
 				6A5EFE012308D901005282B0 /* Main.storyboard */,
 				6A5EFE46230F5CCA005282B0 /* AddLegOfTravel.storyboard */,
@@ -93,6 +96,14 @@
 				6A5EFE5223172F9B005282B0 /* AddLegOfTravelViewController.swift */,
 			);
 			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		6A5EFE58231DE001005282B0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6A5EFE59231DE019005282B0 /* DateTableViewCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +178,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A5EFE5A231DE019005282B0 /* DateTableViewCell.swift in Sources */,
 				6A5EFE5323172F9B005282B0 /* AddLegOfTravelViewController.swift in Sources */,
 				6A5EFE4A23172B43005282B0 /* Itinerary.swift in Sources */,
 				6A5EFDFE2308D901005282B0 /* AppDelegate.swift in Sources */,

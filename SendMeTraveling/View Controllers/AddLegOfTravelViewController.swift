@@ -10,17 +10,41 @@ import UIKit
 
 class AddLegOfTravelViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
+    // MARK: Properties
+    
     var datePickerIndex: IndexPath?
     var cellIds: [[String]] = [
-        ["LocationCell", "LocationCell"],
-        ["ListSelectionCell", "RightInputCell", "DateCell", "DateCell"],
-        ["DateCell", "DateCell"]
+        ["StartLocationCell", "EndLocationCell"],
+        ["ListSelectionCell", "RightInputCell", "StartDateCell", "EndDateCell"],
+        ["StartDateCell", "EndDateCell"]
     ]
+    
+    // MARK: Outlets
     
     @IBOutlet weak var addLegOfTravelTableView: UITableView!
     
+    // MARK: Methods
+    
     func setupView() {
+        // Stops tableView from autoscrolling and messing up the navigation bar
+        addLegOfTravelTableView.contentInsetAdjustmentBehavior = .never
+    }
+}
+
+// MARK: - Life Cycle Methods
+extension AddLegOfTravelViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
         
+        setupView()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        if let indexPath = addLegOfTravelTableView.indexPathForSelectedRow {
+            addLegOfTravelTableView.deselectRow(at: indexPath, animated: false)
+        }
     }
 }
 
