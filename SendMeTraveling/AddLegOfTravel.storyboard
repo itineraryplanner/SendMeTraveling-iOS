@@ -172,7 +172,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="DatePickerCell" rowHeight="216" id="AiA-BD-HPF">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="DatePickerCell" rowHeight="216" id="AiA-BD-HPF" customClass="DatePickerTableViewCell" customModule="SendMeTraveling" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="319.5" width="414" height="216"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="AiA-BD-HPF" id="7jL-VX-DhN">
@@ -187,14 +187,20 @@
                                                     <date key="date" timeIntervalSinceReferenceDate="588300456.37621796">
                                                         <!--2019-08-24 00:47:36 +0000-->
                                                     </date>
+                                                    <connections>
+                                                        <action selector="updateDate:" destination="AiA-BD-HPF" eventType="valueChanged" id="7ob-dg-hQK"/>
+                                                    </connections>
                                                 </datePicker>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="trailing" secondItem="x3l-UP-Crq" secondAttribute="trailing" id="Ft4-bz-PoA"/>
-                                                <constraint firstItem="x3l-UP-Crq" firstAttribute="centerY" secondItem="7jL-VX-DhN" secondAttribute="centerY" id="Glc-qs-yW6"/>
+                                                <constraint firstItem="x3l-UP-Crq" firstAttribute="centerY" secondItem="7jL-VX-DhN" secondAttribute="centerY" id="eyK-cb-HcQ"/>
                                                 <constraint firstItem="x3l-UP-Crq" firstAttribute="leading" secondItem="7jL-VX-DhN" secondAttribute="leading" id="qTs-6v-AxV"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="datePicker" destination="x3l-UP-Crq" id="PJK-9p-rgx"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
